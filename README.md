@@ -3,6 +3,10 @@
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![issues](https://img.shields.io/github/issues/resource-solutions/resource-js-ajax.svg?style=flat-square)](https://github.com/resource-solutions/resource-js-ajax/issues)
 
+## Translations
+
+* [Portuguese - Brazil](translations/pt_BR)
+
 ## Contributing
 
 - Fork it!
