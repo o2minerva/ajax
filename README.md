@@ -24,6 +24,7 @@ Modern browsers have an inbuilt object called the XMLHttpRequest object. This ob
 
 ## AJAX using Pure JavaScript
 
+***Steps***:
  - 1. Create an instance of the XMLHttpRequest object
  - 2. Use open() method of the XHR to specify what kind of data you want
  - 3. Create a function to utilize the results
