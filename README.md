@@ -52,8 +52,7 @@ An XHR object has many inbuilt variables in which it stores data retrieved from 
 
 When we call xhr.open(), it will fetch the text information stored “ajax_data.txt” and store it in its responseText variable. So, to access the data, we simply have to call xhr.responseText
 
-Since our goal is to replace the <h2> in the <div id=”myContent”> with the new text read from the server, we use the document.getElementById(). So, we shall create an anonymous function as
-follows:
+Since our goal is to replace the `<h2>` in the `<div id="myContent">` with the new text read from the server, we use the document.getElementById(). So, we shall create an anonymous function as follows:
 
 ```javascript
 function() {
