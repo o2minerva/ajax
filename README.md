@@ -103,11 +103,36 @@ Check [script.js](https://github.com/knowledge-solutions/knowledge-ajax/blob/mas
 
 ### Steps (POST):
 
+The difference for the type `POST` is just the `setRequestHeader()`(Define the header for an HTTP request) and use parameters in the `send()`.
 
+```javascript
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+// <input id="example" name="name" type="text">
+xhr..send(document.getElementById("example").value); 
+
+// or
+
+// var file = 'hemersonvianna.io';
+// var name = 'Hemerson Vianna';
+// var data = "file=" + url + "&name=" + name;
+xhr..send(data); 
+```
+
+## Observations
+
+We have to talk some more variables:
+
+**responseXml** - holds an XML loaded file, DOM's method allows to extract data.
+
+**onreadystatechange** - property that takes a function as value that is invoked when the readystatechange event is dispatched.
+
+There are many variables and methods available in the `XMLHttpRequest` object, but most do not support all browsers (IE :/). basic were presented for a good run in all browsers.
 
 ## More examples
 
  - [JSON](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/json/)
+ - [XML](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/xml/)
  - [jQuery](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/jquery/)
 
 ## Contributing

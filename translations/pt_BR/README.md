@@ -101,11 +101,38 @@ Confira o [script.js](https://github.com/knowledge-solutions/knowledge-ajax/blob
 
 ### Passos (POST):
 
+A diferença para o tipo `POST` é apenas o método `setRequestHeader()`(Define o cabeçalho para uma solicitação HTTP) e a utilização de parâmetros no método `send()`.
+
+```javascript
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+// <input id="example" name="name" type="text">
+xhr..send(document.getElementById("example").value); 
+
+// or
+
+// var file = 'hemersonvianna.io';
+// var name = 'Hemerson Vianna';
+// var data = "file=" + url + "&name=" + name;
+xhr..send(data); 
+```
+
+## Observações
+
+Temos de falar de mais algumas variáveis:
+
+**responseXml** - mantém um arquivo XML carregado, o método de DOM permite extrair dados.
+
+**onreadystatechange** - propriedade que leva uma função como valor que é invocado quando o evento `readystatechange` é despachado.
+
+
+Há muitas variáveis e métodos disponíveis no objeto `XMLHttpRequest`, mas a maioria não tem suporte a todos os navegadores (IE :/). Foram apresentados os básicos para um bom funcionamento em todos os navegadores.
 
 
 ## Mais exemplos
 
  - [JSON](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/json/)
+ - [XML](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/xml/)
  - [jQuery](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/jquery/)
 
 ## Contribuindo
