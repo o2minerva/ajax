@@ -27,7 +27,8 @@ Modern browsers have an inbuilt object called the XMLHttpRequest object. This ob
 ### Steps:
 #### 1. Create an instance of the XMLHttpRequest object
 
-To create an instance of XHR, you simply get a variable name, and use the `new XMLHttpRequest()` method to create the instance. So, we'll create an instance as follows:
+
+To create an instance of XHR, you simply need to assign to a variable the `XMLHttpRequest ()` method with the operator `new` to create the instance. So, we'll create an instance as follows:
 
 ```javascript
 var xhr = new XMLHttpRequest();
@@ -35,7 +36,7 @@ var xhr = new XMLHttpRequest();
 
 #### 2. Use open() method of the XHR to specify what kind of data you want
 
-The method `open()` is used to specify the kind of data an object wants from the server. It takes three arguments i.e. the type of request, the location of the file on the server, and a synchronous indicator.
+The method `open()` is used to specify the kind of data an object wants from the server. It takes three arguments the type of request, the location of the file on the server, and a synchronous indicator.
 
  - **request** ‐ This is the type of request you are sending to the server. It takes the value `GET` or `POST`. In simple terms, `GET` is for retrieving something from the server. `POST` is for sending something to the server.
  - **url** ‐ This is the URL of the file on the server. It is can be static or relative URL or simply the path from the folder which contains the web page.
@@ -48,9 +49,9 @@ xhr.open('GET', 'source/test.txt', true);
 
 #### 3. Create a function to utilize the results
 
-An XHR object has many inbuilt variables in which it stores data retrieved from the server. One of these variables is called `responseText`. Now, responseText usually contains any text information retrieved from the server.
+An XHR object has many inbuilt variables in which it stores data retrieved from the server. One of these variables is called `responseText`. Usually contains any text information retrieved from the server.
 
-When we call `xhr.open()`, it will fetch the text information stored `test.txt` and store it in its responseText variable. So, to access the data, we simply have to call xhr.responseText
+When we call `xhr.open()`, it will fetch the text information stored `test.txt` and store it in its responseText variable. So, to access the data, we simply have to call `xhr.responseText`.
 
 Our goal is to populate `<div id="container">` with the new text read from the server, we use the `document.getElementById()`. So, we shall create an anonymous function as follows:
 
@@ -59,6 +60,7 @@ function() {
   document.getElementById("container").innerHTML = xhr.responseText;
 }
 ```
+
 This function basically replaces the HTML found in the `<div> container` with the text fetched from the server.
 
 #### 4. Use the XHR’s `send()` method to send the request
@@ -73,7 +75,7 @@ xhr.send(null);
 
 The XHR has two properties are used to indicate a response from the server. The first is `readyState`, and the second is `status`.
 
-The `readyState` property records how the request is progressing. It returns a numerical value, numbered `0` to `4` which indicate different states of progress. The numbers translate as follows:
+The `readyState` property records how the request is progressing. It returns a numerical value, numbered `0` to `4` which indicate different states of progress.
 
  - 0 ‐ request not initialized
  - 1 ‐ connection to server established
@@ -86,9 +88,8 @@ The `status` property indicates whether or not the request was successfully exec
  - 200 ‐ request successfully executed and response delivered
  - 404 ‐ page not found
 
-You can access these properties by referencing them from the XHR variable as follows: `xhr.readyState` or `xhr.status`
-
-Before retrieving any of the XHR's other variables `responseText`, we have to ensure that the `readyState` is `4` and `status` is `200`.
+You can access these properties by referencing them from the XHR variable as follows: `xhr.readyState` or `xhr.status`.
+Before retrieving any of the XHR's other variables how `responseText`, we have to ensure that the `readyState` is `4` and `status` is `200`.
 
 ## Contributing
 
