@@ -1,7 +1,7 @@
 # Resource Ajax
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/resource-solutions/resource-js-ajax.svg?style=flat-square)](https://github.com/resource-solutions/resource-js-ajax/issues)
+[![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-ajax.svg?style=flat-square)](https://github.com/knowledge-solutions/knowledge-ajax/issues)
 
 ## Translations
 
@@ -99,10 +99,16 @@ In the example the `initXhr() ', serve only to demonstrate what needed to be don
 var xhr = new XMLHttpRequest();
 ```
  
-Check [script.js](https://github.com/resource-solutions/resource-js-ajax/blob/master/source/script.js)
+Check [script.js](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/script.js)
 
 ### Steps (POST):
 
+
+
+## More examples
+
+ - [JSON](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/json/)
+ - [jQuery](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/jquery/)
 
 ## Contributing
 
@@ -114,7 +120,7 @@ Check [script.js](https://github.com/resource-solutions/resource-js-ajax/blob/ma
 
 ## Log
 
-Check [Releases](https://github.com/resource-solutions/resource-js-ajax/releases) for detailed changelog.
+Check [Releases](https://github.com/knowledge-solutions/knowledge-ajax/releases) for detailed changelog.
 
 ## License
 

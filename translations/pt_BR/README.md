@@ -1,11 +1,11 @@
 # Resource Ajax
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/resource-solutions/resource-js-ajax.svg?style=flat-square)](https://github.com/resource-solutions/resource-js-ajax/issues)
+[![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-ajax.svg?style=flat-square)](https://github.com/knowledge-solutions/knowledge-ajax/issues)
 
 ## Traduções
 
-* [ORIGINAL](https://github.com/resource-solutions/resource-js-ajax/)
+* [ORIGINAL](https://github.com/knowledge-solutions/knowledge-ajax/)
 
 ## Introdução
 
@@ -97,11 +97,16 @@ No exemplo a função `initXhr()`, apenas serve para demonstrar o que era precis
 var xhr = new XMLHttpRequest();
 ```
  
-Confira o [script.js](https://github.com/resource-solutions/resource-js-ajax/blob/master/source/script.js).
+Confira o [script.js](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/script.js).
 
 ### Passos (POST):
 
 
+
+## Mais exemplos
+
+ - [JSON](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/json/)
+ - [jQuery](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/jquery/)
 
 ## Contribuindo
 
@@ -113,7 +118,7 @@ Confira o [script.js](https://github.com/resource-solutions/resource-js-ajax/blo
 
 ## Log
 
-Verifique os [Releases](https://github.com/resource-solutions/resource-js-ajax/releases) ver detalhado o log de alterações.
+Verifique os [Releases](https://github.com/knowledge-solutions/knowledge-ajax/releases) ver detalhado o log de alterações.
 
 ## Licença
 

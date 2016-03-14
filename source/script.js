@@ -34,8 +34,10 @@ var load = function(request, uri, async) {
   * Customize request header
   * @param header {String} Header. Like 'Content-type'.
   * @param value {String} Value of header. Like 'text'.
+  *
+  * This is for POST only.
   */
-  xhr.setRequestHeader("Content-type", "text/plain");
+  // xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4) {
