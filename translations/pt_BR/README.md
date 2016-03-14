@@ -32,7 +32,7 @@ Para criar uma instância de XHR, você simplesmente precisa atribuir a uma vari
 var xhr = new XMLHttpRequest();
 ```
 
-#### 2. Use o método open() do XHR para especificar que tipo de dados que você deseja
+#### 2. Use o método open() do XHR para especificar que tipo de dados você deseja
 
 O método `open()` é usado para especificar o tipo de dado que quer a partir do servidor. Recebe três argumentos: tipo de pedido, o local do arquivo no servidor e o indicador assíncrono.
 
