@@ -101,6 +101,9 @@ var xhr = new XMLHttpRequest();
  
 Check [script.js](https://github.com/resource-solutions/resource-js-ajax/blob/master/source/script.js)
 
+### Steps (POST):
+
+
 ## Contributing
 
 - Fork it!
