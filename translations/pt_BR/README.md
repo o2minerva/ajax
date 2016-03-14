@@ -23,12 +23,22 @@ Os navegadores modernos tem um objeto embutido chamado XMLHttpRequest. Este obje
 
 ## AJAX usando JavaScript puro
 
-**Passos**: 
- - 1. Criar uma instância do objeto XMLHttpRequest
- - 2. Use o método open() do XHR para especificar que tipo de dados que você deseja
- - 3. Criar uma função para utilizar os resultados
- - 4. Use o método send() do XHR para enviar o pedido
- - 5. Receber a resposta
+### Passos: 
+#### 1. Criar uma instância do objeto XMLHttpRequest
+
+Para criar uma instância de XHR, você simplesmente precisa obter um nome de variável, e usar o método `new XMLHttpRequest()` para criar a instância. Então, vamos criar uma instância da seguinte forma:
+
+```javascript
+var xhr = new XMLHttpRequest();
+```
+
+#### 2. Use o método open() do XHR para especificar que tipo de dados que você deseja
+
+#### 3. Criar uma função para utilizar os resultados
+
+#### 4. Use o método send() do XHR para enviar o pedido
+
+#### 5. Receber a resposta
 
 ## Contribuindo
 
