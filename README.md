@@ -24,7 +24,7 @@ Modern browsers have an inbuilt object called the XMLHttpRequest object. This ob
 
 ## AJAX using Pure JavaScript
 
-### Steps:
+### Steps (GET):
 #### 1. Create an instance of the XMLHttpRequest object
 
 
@@ -90,6 +90,16 @@ The `status` property indicates whether or not the request was successfully exec
 
 You can access these properties by referencing them from the XHR variable as follows: `xhr.readyState` or `xhr.status`.
 Before retrieving any of the XHR's other variables how `responseText`, we have to ensure that the `readyState` is `4` and `status` is `200`.
+
+#### Example of the above steps
+ 
+In the example the `initXhr() ', serve only to demonstrate what needed to be done to support for IE prior to 7. This function can be disregarded and use only:
+
+```javascript
+var xhr = new XMLHttpRequest();
+```
+ 
+Check [script.js](https://github.com/resource-solutions/resource-js-ajax/blob/master/source/script.js)
 
 ## Contributing
 

@@ -23,7 +23,7 @@ Os navegadores modernos tem um objeto embutido chamado XMLHttpRequest. Este obje
 
 ## AJAX usando JavaScript puro
 
-### Passos: 
+### Passos (GET): 
 #### 1. Criar uma instância do objeto XMLHttpRequest
 
 Para criar uma instância de XHR, você simplesmente precisa atribuir a uma variável o método `XMLHttpRequest()` com o operador `new` para criar a instância. Então, vamos criar uma instância da seguinte forma:
@@ -59,7 +59,7 @@ function() {
 }
 ```
 
-Esta função, basicamente substitui o HTML encontrado no `<div> container` com o texto buscado do servidor.
+Esta função, basicamente substitui o HTML encontrado no `<div> container` com o texto buscado no servidor.
 
 #### 4. Use o método send() do XHR para enviar o pedido
 
@@ -88,6 +88,16 @@ A propriedade `status` indica se o pedido foi executado com sucesso.
 
 Você pode acessar essas propriedades referenciando a partir da variável XHR da seguinte forma: `xhr.readyState` ou` xhr.status`.
 Antes de recuperar qualquer outra variável do XHR como `responseText`, devemos garantir que o `readyState` é `4` e o `status` é `200`.
+
+#### Exemplo dos passos acima
+
+No exemplo a função `initXhr()`, apenas serve para demonstrar o que era preciso ser feito para dar suporte para o IE anterior ao 7. Essa função pode ser desconsiderada e usar apenas:
+
+```javascript
+var xhr = new XMLHttpRequest();
+```
+ 
+Confira o [script.js](https://github.com/resource-solutions/resource-js-ajax/blob/master/source/script.js).
 
 ## Contribuindo
 

@@ -50,7 +50,7 @@ var load = function(request, uri, async) {
   * Send the request
   * @param content {String} Body of the http request. Only needed in POST method
   */
-  xhr.send();
+  xhr.send(null);
 }
 
 
