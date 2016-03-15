@@ -149,6 +149,22 @@ Routes:
 - xml - [http://localhost:9000/xml](http://localhost:9000/xml) 
 - jquery - [http://localhost:9000/jquery](http://localhost:9000/jquery)
 
+## Ajax libraries
+
+ - [SuperAgent](http://smalljs.org/ajax/superagent/)
+ - [Razaxjs](https://github.com/razaibi/razaxjs)
+ - [Aja.js](http://krampstudio.com/aja.js/)
+ - [Wjs](https://github.com/weeger/wjs)
+ - [Marmottajax](https://github.com/dimitrinicolas/marmottajax)
+ - [Nanoajax](https://github.com/yanatan16/nanoajax)
+ - [psQuery](https://github.com/pseudosavant/psQuery)
+ - [ajax](https://github.com/ForbesLindesay/ajax)
+ - [Reqwest](https://github.com/ded/Reqwest)
+ - [majaX.js](https://github.com/SimonWaldherr/majaX.js)
+ - [qwest](https://github.com/pyrsmk/qwest)
+ - [http.js](https://github.com/organic-scholar/http.js)
+ - [intercooler.js](http://intercoolerjs.org/)
+
 ## Contributing
 
 - Fork it!
