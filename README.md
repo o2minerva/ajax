@@ -135,6 +135,20 @@ There are many variables and methods available in the `XMLHttpRequest` object, b
  - [XML](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/xml/)
  - [jQuery](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/jquery/)
 
+## Installation for the examples
+
+Requires [Node.js](https://nodejs.org/en/) installed on the machine
+
+```
+npm install
+```
+
+Routes:
+- text - [http://localhost:9000/](http://localhost:9000/)
+- json - [http://localhost:9000/json](http://localhost:9000/json)
+- xml - [http://localhost:9000/xml](http://localhost:9000/xml) 
+- jquery - [http://localhost:9000/jquery](http://localhost:9000/jquery)
+
 ## Contributing
 
 - Fork it!

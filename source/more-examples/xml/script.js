@@ -17,4 +17,4 @@ var load = function(request, uri, async) {
   xhr.send(null);
 }
 
-load('GET', 'test.xml', true);
+load('GET', '/source/more-examples/xml/test.xml', true);

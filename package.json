@@ -1,0 +1,26 @@
+{
+  "name": "knowledge-ajax",
+  "version": "0.1.0",
+  "description": "Knowledge on ajax request",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowledge-solutions/knowledge-ajax.git"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://hemersonvianna.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knowledge-solutions/knowledge-ajax/issues"
+  },
+  "homepage": "https://github.com/knowledge-solutions/knowledge-ajax#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}

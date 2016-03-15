@@ -135,6 +135,20 @@ Há muitas variáveis e métodos disponíveis no objeto `XMLHttpRequest`, mas a 
  - [XML](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/xml/)
  - [jQuery](https://github.com/knowledge-solutions/knowledge-ajax/blob/master/source/more-examples/jquery/)
 
+## Instalação para os exemplos
+
+Requer [Node.js](https://nodejs.org/en/) instalado na máquina
+
+```
+npm install
+```
+
+Rotas:
+- text - [http://localhost:9000/](http://localhost:9000/)
+- json - [http://localhost:9000/json](http://localhost:9000/json)
+- xml - [http://localhost:9000/xml](http://localhost:9000/xml) 
+- jquery - [http://localhost:9000/jquery](http://localhost:9000/jquery)
+
 ## Contribuindo
 
 - Faça o fork!

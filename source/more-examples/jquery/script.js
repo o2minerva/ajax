@@ -1,7 +1,7 @@
 var jqxhr = $.ajax({
     method: "GET",
     dataType: "json",
-    url: "test.json"
+    url: "/source/more-examples/jquery/test.json"
   })
   .done(function(data) {
     console.log( "success" );

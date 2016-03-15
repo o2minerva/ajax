@@ -21,4 +21,4 @@ var load = function(request, uri, async) {
   xhr.send(null);
 }
 
-load('GET', 'test.json', true);
+load('GET', '/source/more-examples/json/test.json', true);
