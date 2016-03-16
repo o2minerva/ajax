@@ -119,7 +119,7 @@ xhr..send(data);
 
 ## Observações
 
-Temos de falar de mais algumas variáveis:
+Temos que falar de mais algumas variáveis:
 
 **responseXml** - mantém um arquivo XML carregado, o método de DOM permite extrair dados.
 
