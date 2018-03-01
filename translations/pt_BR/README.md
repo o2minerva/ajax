@@ -1,11 +1,11 @@
 # Resource Ajax
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-ajax.svg?style=flat-square)](https://github.com/knowledge-solutions/knowledge-ajax/issues)
+[![issues](https://img.shields.io/github/issues/descco-tools/knowledge-ajax.svg?style=flat-square)](https://github.com/descco-tools/knowledge-ajax/issues)
 
 ## Traduções
 
-* [ORIGINAL](https://github.com/knowledge-solutions/knowledge-ajax/)
+* [ORIGINAL](https://github.com/descco-tools/knowledge-ajax/)
 
 ## Introdução
 
@@ -175,7 +175,7 @@ Rotas:
 
 ## Log
 
-Verifique os [Releases](https://github.com/knowledge-solutions/knowledge-ajax/releases) ver detalhado o log de alterações.
+Verifique os [Releases](https://github.com/descco-tools/knowledge-ajax/releases) ver detalhado o log de alterações.
 
 ## Licença
 
