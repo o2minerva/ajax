@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/org-minerva/ajax#readme",
   "dependencies": {
-    "ejs": "2.4.1",
+    "ejs": "3.0.1",
     "express": "4.13.4"
   }
 }
