@@ -1,16 +1,16 @@
 # Resource Ajax
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![GitHub issues](https://img.shields.io/github/issues/org-victorinox/knowledge-ajax.svg)](https://github.com/org-victorinox/knowledge-ajax/issues)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/org-victorinox/knowledge-ajax.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/org-victorinox/knowledge-ajax.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/org-victorinox/knowledge-ajax.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/org-victorinox/knowledge-ajax.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/org-victorinox/knowledge-ajax/total.svg)
+[![GitHub issues](https://img.shields.io/github/issues/org-minerva/ajax.svg)](https://github.com/org-minerva/ajax/issues)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/org-minerva/ajax.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/org-minerva/ajax.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/org-minerva/ajax.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/org-minerva/ajax.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/org-minerva/ajax/total.svg)
 
 ## Traduções
 
-* [ORIGINAL](https://github.com/org-victorinox/knowledge-ajax/)
+* [ORIGINAL](https://github.com/org-minerva/ajax/)
 
 ## Introdução
 
@@ -180,7 +180,7 @@ Rotas:
 
 ## Log
 
-Verifique os [Releases](https://github.com/org-victorinox/knowledge-ajax/releases) ver detalhado o log de alterações.
+Verifique os [Releases](https://github.com/org-minerva/ajax/releases) ver detalhado o log de alterações.
 
 ## Licença
 
